@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,24 +7,25 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hello World | Hexo</title>
+  <title>随便写写 | TwoGod Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="这篇博客主要是测试一下标签和摘要功能">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/04/27/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:title" content="随便写写">
+<meta property="og:url" content="http://example.com/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/index.html">
+<meta property="og:site_name" content="TwoGod Blog">
+<meta property="og:description" content="这篇博客主要是测试一下标签和摘要功能">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-04-27T03:04:21.679Z">
-<meta property="article:modified_time" content="2021-04-27T03:04:21.679Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:published_time" content="2021-04-29T02:23:00.000Z">
+<meta property="article:modified_time" content="2021-04-29T02:39:33.470Z">
+<meta property="article:author" content="Two God">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="TwoGod Blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/themes/yilia/source/">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -38,16 +40,20 @@
 
 <meta name="generator" content="Hexo 5.4.0"></head>
 
+
+	
 <body>
+
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<!-- <div class="overlay" style="background: #4d4d4d"></div> -->
+<div class="overlay" ></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/assert/face.jpeg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -59,9 +65,14 @@
 			
 				<li><a href="/">主页</a></li>
 	        
+				<li><a href="/categories">分类</a></li>
+	        
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
 			</ul>
+		</nav>
+		<nav>
+			总文章数 3
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -81,17 +92,25 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
+				
+						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+				
+						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+				
+						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+				
+						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+				
+				
 			</div>
+			<!-- 网易云音乐插件 -->
+ <!-- <div style="position:absolute; bottom:0 left:auto; width:85%">
+        <iframe  frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=52 src="//music.163.com/outchain/player?type=2&id=1830036291&auto=1&height=32"></iframe>
+    </div> -->
 		</nav>
-	</header>		
+		
+	</header>
+			
 </div>
 
     </div>
@@ -105,13 +124,15 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/assert/face.jpeg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
 			</hgroup>
 			
 			
+			
+				
 			
 				
 			
@@ -134,12 +155,14 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/categories">分类</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -154,39 +177,29 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-随便写写" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      随便写写
     </h1>
   
 
         
-        <a href="/2021/04/27/hello-world/" class="archive-article-date">
-  	<time datetime="2021-04-27T03:04:21.679Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-27</time>
+        <a href="/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" class="archive-article-date">
+  	<time datetime="2021-04-29T02:23:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-29</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p>这篇博客主要是测试一下标签和摘要功能</p>
+<span id="more"></span>
+<p>今天把背景音乐搞了一下，但是觉得有点鸡肋，之后搞不好还得删掉。。。瞎弄。<br>总觉得这个随笔怪怪的，这个功能模块很呆啊，这种标签应该收集到一个模块里面，怎么能独立成一个模块，否则标签很多的话。。。想想觉得很蠢，得找找办法改进一下<br>还有一大堆功能要完善，什么留言啦，评论啦，各种博客统计啦，一大堆事情，五一要彻底把博客完结啦，并且整理心得。冲！<br>之后把wgy一个模块做完，不能拖拖拉拉的</p>
 
       
 
@@ -216,6 +229,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -266,7 +290,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/04/27/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,15 +304,20 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/04/29/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%20-%20%E5%89%AF%E6%9C%AC/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          我的第一篇博客
+          测试分类及标签
         
       </div>
     </a>
   
+  
+    <a href="/2021/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的第一篇博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
@@ -329,7 +358,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2021 John Doe
+    		&copy; 2021 Two God
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -410,6 +439,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Test</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -564,6 +601,8 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     </div>
 
 </div>
+		
   </div>
+	
 </body>
 </html>
