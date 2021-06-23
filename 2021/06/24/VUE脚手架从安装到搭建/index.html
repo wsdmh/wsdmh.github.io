@@ -7,20 +7,35 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>随便写写 | TwoGod Blog</title>
+  <title>VUE脚手架从安装到搭建 | TwoGod Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这篇博客主要是测试一下标签和摘要功能">
+  <meta name="description" content="Vue入门到入土">
 <meta property="og:type" content="article">
-<meta property="og:title" content="随便写写">
-<meta property="og:url" content="http://example.com/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/index.html">
+<meta property="og:title" content="VUE脚手架从安装到搭建">
+<meta property="og:url" content="http://example.com/2021/06/24/VUE%E8%84%9A%E6%89%8B%E6%9E%B6%E4%BB%8E%E5%AE%89%E8%A3%85%E5%88%B0%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="TwoGod Blog">
-<meta property="og:description" content="这篇博客主要是测试一下标签和摘要功能">
+<meta property="og:description" content="Vue入门到入土">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-04-29T02:23:00.000Z">
-<meta property="article:modified_time" content="2021-04-29T02:39:33.470Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wsdmh/PicGo/img/20210624031132.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wsdmh/PicGo/img/20210624031254.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224095205457.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020022409575711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224095811249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224095933227.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101153625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101213502.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020032816290674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101635937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101717336.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101812697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224101825208.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200224103654976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70">
+<meta property="article:published_time" content="2021-06-23T19:07:57.000Z">
+<meta property="article:modified_time" content="2021-06-23T19:35:01.408Z">
 <meta property="article:author" content="Two God">
-<meta property="article:tag" content="随笔">
+<meta property="article:tag" content="技术向">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/wsdmh/PicGo/img/20210624031132.png">
   
     <link rel="alternative" href="/atom.xml" title="TwoGod Blog" type="application/atom+xml">
   
@@ -177,29 +192,133 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-随便写写" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-VUE脚手架从安装到搭建" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      随便写写
+      VUE脚手架从安装到搭建
     </h1>
   
 
         
-        <a href="/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" class="archive-article-date">
-  	<time datetime="2021-04-29T02:23:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-29</time>
+        <a href="/2021/06/24/VUE%E8%84%9A%E6%89%8B%E6%9E%B6%E4%BB%8E%E5%AE%89%E8%A3%85%E5%88%B0%E6%90%AD%E5%BB%BA/" class="archive-article-date">
+  	<time datetime="2021-06-23T19:07:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-24</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这篇博客主要是测试一下标签和摘要功能</p>
+        <p>Vue入门到入土</p>
 <span id="more"></span>
-<p>今天把背景音乐搞了一下，但是觉得有点鸡肋，之后搞不好还得删掉。。。瞎弄。<br>总觉得这个随笔怪怪的，这个功能模块很呆啊，这种标签应该收集到一个模块里面，怎么能独立成一个模块，否则标签很多的话。。。想想觉得很蠢，得找找办法改进一下<br>还有一大堆功能要完善，什么留言啦，评论啦，各种博客统计啦，一大堆事情，五一要彻底把博客完结啦，并且整理心得。冲！<br>之后把wgy一个模块做完，不能拖拖拉拉的</p>
+
+<h1 id="安装vue脚手架"><a href="#安装vue脚手架" class="headerlink" title="安装vue脚手架"></a>安装vue脚手架</h1><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//全局安装</span><br><span class="line">cnpm i @vue/cli -g </span><br></pre></td></tr></table></figure>
+
+<p>查看vue cli版本</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue --version</span><br></pre></td></tr></table></figure>
+
+<h1 id="启动vue脚手架图形化界面"><a href="#启动vue脚手架图形化界面" class="headerlink" title="启动vue脚手架图形化界面"></a>启动vue脚手架图形化界面</h1><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue ui</span><br></pre></td></tr></table></figure>
+
+<h1 id="通过vue脚手架图形化界面创建项目"><a href="#通过vue脚手架图形化界面创建项目" class="headerlink" title="通过vue脚手架图形化界面创建项目"></a>通过vue脚手架图形化界面创建项目</h1><h2 id="选择项目目录"><a href="#选择项目目录" class="headerlink" title="选择项目目录"></a>选择项目目录</h2><p>选择一个项目目录，点击在此创建新项目按钮</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wsdmh/PicGo/img/20210624031132.png" alt="image-20210624031119176"></p>
+<p>填写项目名称，git初始化信息，点击下一步</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wsdmh/PicGo/img/20210624031254.png" alt="image-20210624031246952"></p>
+<h2 id="预设"><a href="#预设" class="headerlink" title="预设"></a>预设</h2><p>有提前准备好的预设就选择准备好的，没有就选择手动，点击下一步</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224095205457.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="img"></p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>创建项目时，以下四个功能一般需要选择</p>
+<ul>
+<li>Babel</li>
+<li>Router</li>
+<li>Linter/Formatter（代码规范，这个有点痛苦，习惯就好，想了解一下的<a target="_blank" rel="noopener" href="https://wsdmh.github.io/2021/06/24/VUE%E8%84%9A%E6%89%8B%E6%9E%B6%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%ADLinter-Formatter%E9%80%89%E9%A1%B9%E8%A7%A3%E8%AF%BB/">点这里</a>）</li>
+<li>使用配置文件</li>
+</ul>
+<p>vuex功能按照自身需求决定是否需要添加<br>点击下一步</p>
+<p><img src="https://img-blog.csdnimg.cn/2020022409575711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200224095811249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>Pick a linter/formatter config选择标准配置ESLint + Standard config，点击创建项目</p>
+<p>是否需要保留预设这个看你自己，需要的话给预设命名，保留，下一次直接使用即可</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224095933227.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p>选择插件，点击添加插件按钮</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101153625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h2 id="安装Element-ui"><a href="#安装Element-ui" class="headerlink" title="安装Element ui"></a>安装Element ui</h2><p>搜索 vue-cli-plugin-element 安装</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101213502.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<p>配置element ui-How do you want to import Element?</p>
+<ul>
+<li>Fully import表示全量导入</li>
+<li>Import on demand表示按需导入，可以减少打包后项目体积</li>
+</ul>
+<p>不过我们后续一般会做项目优化，所以直接默认配置就可以了</p>
+<p>点击完成安装</p>
+<p><img src="https://img-blog.csdnimg.cn/2020032816290674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h1 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h1><p>选择依赖，点击安装依赖</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101635937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h2 id="安装axios"><a href="#安装axios" class="headerlink" title="安装axios"></a>安装axios</h2><p>选择运行依赖，搜索 axios</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101717336.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h2 id="安装less，less-loader"><a href="#安装less，less-loader" class="headerlink" title="安装less，less-loader"></a>安装less，less-loader</h2><p>选择开发依赖，搜索 less</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101812697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<p>选择开发依赖，搜索 less-loader</p>
+<p><img src="https://img-blog.csdnimg.cn/20200224101825208.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="å¨è¿éæå¥å¾çæè¿°"></p>
+<h2 id="安装v-charts"><a href="#安装v-charts" class="headerlink" title="安装v-charts"></a>安装v-charts</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_28988969/article/details/105110960">Vue项目中使用v-charts</a></p>
+<h2 id="安装moment"><a href="#安装moment" class="headerlink" title="安装moment"></a>安装moment</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_28988969/article/details/105177843">Vue项目中使用moment.js</a></p>
+<h1 id="项目目录简介"><a href="#项目目录简介" class="headerlink" title="项目目录简介"></a>项目目录简介</h1><p><img src="https://img-blog.csdnimg.cn/20200224103654976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTg4OTY5,size_16,color_FFFFFF,t_70" alt="img"></p>
+<h1 id="配置项目启动自动打开浏览器和启动端口"><a href="#配置项目启动自动打开浏览器和启动端口" class="headerlink" title="配置项目启动自动打开浏览器和启动端口"></a>配置项目启动自动打开浏览器和启动端口</h1><p>每次启动项目时，都需要重新打开浏览器，解决办法就是添加一个配置文件，帮我们自动打开浏览器</p>
+<p>在项目的根目录创建文件vue.config.js文件</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 如果有报错，检查一下是不是空格问题导致的</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  <span class="comment">// 设置打包后输出的目录</span></span><br><span class="line">  outputDir: <span class="string">&#x27;../static&#x27;</span>,</span><br><span class="line">  <span class="comment">// 设置打包后静态资源目录</span></span><br><span class="line">  assetsDir: <span class="string">&#x27;static&#x27;</span>,</span><br><span class="line">  devServer: &#123;</span><br><span class="line">    <span class="comment">// 设置自动打开浏览器</span></span><br><span class="line">    open: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// 端口号</span></span><br><span class="line">    port: <span class="number">9999</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>启动项目，在项目根目录下，执行以下命令</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run serve</span><br></pre></td></tr></table></figure>
+
+<h1 id="处理eslint语法警告"><a href="#处理eslint语法警告" class="headerlink" title="处理eslint语法警告"></a>处理eslint语法警告</h1><p>在根目录下创建 .prettierrc 文件，eslint的配置文件，指定格式化的配置,<em><strong>实际文件中不要出现注释</strong></em></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="comment">// 指定格式化时，末尾不添加分号;</span></span><br><span class="line">    <span class="string">&quot;semi&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">// 指定使用单引号&#x27;&#x27;</span></span><br><span class="line">    <span class="string">&quot;singleQuote&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// 设置一行的宽度，一行字符超过指定宽度强制换行，默认80</span></span><br><span class="line">    <span class="string">&quot;printWidth&quot;</span>: <span class="number">200</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>处理方法后面的括号需要一个空格问题，在根目录下.eslintrc.js文件中禁用space-before-function-paren</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  root: <span class="literal">true</span>,</span><br><span class="line">  env: &#123;</span><br><span class="line">    node: <span class="literal">true</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="keyword">extends</span>: [</span><br><span class="line">    <span class="string">&#x27;plugin:vue/essential&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;@vue/standard&#x27;</span></span><br><span class="line">  ],</span><br><span class="line">  parserOptions: &#123;</span><br><span class="line">    parser: <span class="string">&#x27;babel-eslint&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  rules: &#123;</span><br><span class="line">    <span class="string">&#x27;no-console&#x27;</span>: process.env.NODE_ENV === <span class="string">&#x27;production&#x27;</span> ? <span class="string">&#x27;error&#x27;</span> : <span class="string">&#x27;off&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;no-debugger&#x27;</span>: process.env.NODE_ENV === <span class="string">&#x27;production&#x27;</span> ? <span class="string">&#x27;error&#x27;</span> : <span class="string">&#x27;off&#x27;</span>,</span><br><span class="line">    <span class="comment">// 禁用方法后面的括号需要一个空格问题</span></span><br><span class="line">    <span class="string">&#x27;space-before-function-paren&#x27;</span>: <span class="number">0</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="项目准备"><a href="#项目准备" class="headerlink" title="项目准备"></a>项目准备</h1><h2 id="删除不要的组件"><a href="#删除不要的组件" class="headerlink" title="删除不要的组件"></a>删除不要的组件</h2><ul>
+<li>删除src目录下views目录</li>
+<li>删除src目录下compoents目录下的所有文件</li>
+</ul>
+<h2 id="修改APP-vue"><a href="#修改APP-vue" class="headerlink" title="修改APP.vue"></a>修改APP.vue</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id&#x3D;&quot;app&quot;&gt;</span><br><span class="line">    &lt;!-- 路由占位符 --&gt;</span><br><span class="line">    &lt;router-view&gt;&lt;&#x2F;router-view&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#39;app&#39;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="创建登录组件"><a href="#创建登录组件" class="headerlink" title="创建登录组件"></a>创建登录组件</h2><p>在compoents目录下，新建Login.vue文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div&gt;登录组件&lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;&#125;</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style lang&#x3D;&quot;less&quot; scoped&gt;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="设置路由"><a href="#设置路由" class="headerlink" title="设置路由"></a>设置路由</h2><p>修改router目录下index.js文件</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> VueRouter <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"><span class="comment">// 导入登录组件</span></span><br><span class="line"><span class="keyword">import</span> Login <span class="keyword">from</span> <span class="string">&#x27;../components/Login.vue&#x27;</span></span><br><span class="line"></span><br><span class="line">Vue.use(VueRouter)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> routes = [</span><br><span class="line">  <span class="comment">// 根路径重定向到登录</span></span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">    redirect: <span class="string">&#x27;/login&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="comment">// 登录</span></span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">&#x27;/login&#x27;</span>,</span><br><span class="line">    component: Login</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="keyword">new</span> VueRouter(&#123;</span><br><span class="line">  routes</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> router</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h2><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run serve</span><br></pre></td></tr></table></figure>
+
+<p>页面显示登录组件即可</p>
+<h1 id="为不同模式指定环境变量"><a href="#为不同模式指定环境变量" class="headerlink" title="为不同模式指定环境变量"></a>为不同模式指定环境变量</h1><ol>
+<li>创建development模式的环境变量文件，项目根目录下新建.env.development文件</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NODE_ENV=development</span><br><span class="line">VUE_APP_BASE_URL=http:<span class="comment">//127.0.0.1:8080/</span></span><br></pre></td></tr></table></figure>
+
+<pre><code> 2. 创建production模式的环境变量文件，项目根目录下新建.env.production文件
+</code></pre>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NODE_ENV=production</span><br><span class="line">VUE_APP_BASE_URL=/</span><br></pre></td></tr></table></figure>
+
+<h1 id="配置插件和依赖"><a href="#配置插件和依赖" class="headerlink" title="配置插件和依赖"></a>配置插件和依赖</h1><h2 id="配置axios"><a href="#配置axios" class="headerlink" title="配置axios"></a>配置axios</h2><p>在项目src目录下,新建dependences目录,新建axios.js（直接在main.js配置也可以）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="comment">// 导入axios</span></span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置请求根路径，依据模式，读取环境变量</span></span><br><span class="line">axios.defaults.baseURL = process.env.VUE_APP_BASE_URL</span><br><span class="line"></span><br><span class="line"><span class="comment">// axios拦截器</span></span><br><span class="line">axios.interceptors.request.use(<span class="function"><span class="params">config</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 在最后必须return config</span></span><br><span class="line">  <span class="keyword">return</span> config</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">axios.interceptors.response.use(<span class="function"><span class="params">config</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> config</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 挂载到vue</span></span><br><span class="line">Vue.prototype.$http = axios</span><br></pre></td></tr></table></figure>
+
+<p>在main.js中导入axios.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./router&#x27;</span></span><br><span class="line"><span class="keyword">import</span> store <span class="keyword">from</span> <span class="string">&#x27;./store&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./plugins/element.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/axios.js&#x27;</span></span><br><span class="line"></span><br><span class="line">Vue.config.productionTip = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123;</span><br><span class="line">  router,</span><br><span class="line">  store,</span><br><span class="line">  render: <span class="function"><span class="params">h</span> =&gt;</span> h(App)</span><br><span class="line">&#125;).$mount(<span class="string">&#x27;#app&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="配置v-charts"><a href="#配置v-charts" class="headerlink" title="配置v-charts"></a>配置v-charts</h2><p>在项目src目录,dependences目录,新建vcharts.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> VCharts <span class="keyword">from</span> <span class="string">&#x27;v-charts&#x27;</span></span><br><span class="line"></span><br><span class="line">Vue.use(VCharts)</span><br></pre></td></tr></table></figure>
+
+<p>在main.js中导入charts.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./router&#x27;</span></span><br><span class="line"><span class="keyword">import</span> store <span class="keyword">from</span> <span class="string">&#x27;./store&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./plugins/element.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/axios.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/vcharts.js&#x27;</span></span><br><span class="line"></span><br><span class="line">Vue.config.productionTip = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123;</span><br><span class="line">  router,</span><br><span class="line">  store,</span><br><span class="line">  render: <span class="function"><span class="params">h</span> =&gt;</span> h(App)</span><br><span class="line">&#125;).$mount(<span class="string">&#x27;#app&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="配置moment"><a href="#配置moment" class="headerlink" title="配置moment"></a>配置moment</h2><p>在项目src目录,dependences目录,新建moment.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> moment <span class="keyword">from</span> <span class="string">&#x27;moment&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置本地时区</span></span><br><span class="line">moment.locale(<span class="string">&#x27;zh-cn&#x27;</span>)</span><br><span class="line">Vue.prototype.$moment = moment</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在main.js中导入moment.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./router&#x27;</span></span><br><span class="line"><span class="keyword">import</span> store <span class="keyword">from</span> <span class="string">&#x27;./store&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./plugins/element.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/axios.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/vcharts.js&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./dependences/moment.js&#x27;</span></span><br><span class="line"></span><br><span class="line">Vue.config.productionTip = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123;</span><br><span class="line">  router,</span><br><span class="line">  store,</span><br><span class="line">  render: <span class="function"><span class="params">h</span> =&gt;</span> h(App)</span><br><span class="line">&#125;).$mount(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
 
       
 
@@ -234,7 +353,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">技术向</a>
         		</li>
       		
 		</ul>
@@ -290,7 +409,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/04/29/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/06/24/VUE%E8%84%9A%E6%89%8B%E6%9E%B6%E4%BB%8E%E5%AE%89%E8%A3%85%E5%88%B0%E6%90%AD%E5%BB%BA/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -304,18 +423,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/04/29/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%20/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          测试分类及标签
-        
-      </div>
-    </a>
   
-  
-    <a href="/2021/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">我的第一篇博客</div>
+    <a href="/2021/06/24/VUE%E8%84%9A%E6%89%8B%E6%9E%B6%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%ADLinter-Formatter%E9%80%89%E9%A1%B9%E8%A7%A3%E8%AF%BB/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">VUE脚手架搭建项目过程中Linter/Formatter选项解读</div>
       <i class="icon-circle-right"></i>
     </a>
   
